@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Planet of Internet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="js/smoothScroolJquery.js" charset="utf-8"></script>
+    <script src="js/style.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" id="header">
+        <div class="menu">
+          <a id="logo" href="index.html">
+            <div class="logo">
+              <div>
+                Planet of Internet
+              </div>
+            </div>
+          </a>
+          <ul class="ul_menu">
+            <li id="home_li" class="active"><a href="#header">Home</a></li>
+            <li id="news_li"><a href="#news">News</a></li>
+            <li id="contact_us_li"><a href="#contact_us">Contact Us</a></li>
+            <li id="about_us_li"><a href="#about_us">About Us</a></li>
+          </ul>
+          <button type="button" name="menu" id="btn_menu"><span></span><span></span><span></span></button>
+          <ul class="btn_ul_menu">
+            <li class="center"><a href="#header">Home</a></li>
+            <li class="center"><a href="#news">News</a></li>
+            <li class="center"><a href="#contact_us">Contact Us</a></li>
+            <li class="center"><a href="#about_us">About Us</a></li>
+          </ul>
+        </div>
+
+        <p class="center typewrite_anim">
+          <a href="#news" class="typewrite" data-period="2000" data-type='[ "Hallo selamat datang di Website Planet of Internet", "Kami menyediakan berita-berita seputar internet dan teknologi disini", "Semoga kalian semua suka...", "Lets take a look !" ]'>
+            <span class="wrap"></span>
+          </a>
+        </p>
+        <a href="#news"><div class="center getSContain"><button type="button" name="button" class="getStarted">Mulai Baca Berita</button></div></a>
+      </div>
+      <div id="news">
+        <h1 class="center">News</h1>
+        <p class="center"><em>Get more good news from this awesome site !</em></p>
+        <div class="news_btn">
+          <button type="button" name="all"><strong>All</strong></button>
+          <button type="button" name="internet"><strong>Internet</strong></button>
+          <button type="button" name="technology"><strong>Technology</strong></button>
+        </div>
+
+        <a class="window_content" title="Mengejutkan, Ini yang Terjadi Setiap Menit di Internet"><div class="news_content">
+          <div class="news news1 internet">
+            <img src="img/news1.jpg" alt="In Internet">
+            <p>Mengejutkan, Ini yang Terjadi Setiap Menit di Internet</p>
+          </div></a>
+          <a class="window_content" title="Sepanjang Kuartal II 2017, Ada 331 Juta Nama Domain Internet"><div class="news news1 internet">
+            <img src="img/news2.jpg" alt="Nama Domain Internet">
+            <p>Sepanjang Kuartal II 2017, Ada 331 Juta Nama Domain Internet</p>
+          </div></a>
+          <a class="window_content" title="Twitter Uji Coba Batas Kicauan Jadi 280 Karakter"><div class="news news1 internet">
+            <img src="img/news3.jpg" alt="Twitter">
+            <p>Twitter Uji Coba Batas Kicauan Jadi 280 Karakter</p>
+          </div></a>
+          <a class="window_content" title="Bisnis IoT Berbasis Satelit Capai Rp 39 Triliun di 2026"><div class="news news1 technology">
+            <img src="img/news4.jpg" alt="Bisnis Satelit">
+            <p>Bisnis IoT Berbasis Satelit Capai Rp 39 Triliun di 2026</p>
+          </div></a>
+          <a class="window_content" title="Inilah Pesawat NASA yang Bakal Menembus Matahari"><div class="news news1 technology">
+            <img src="img/news5.jpg" alt="NASA's Airplane">
+            <p>Inilah Pesawat NASA yang Bakal Menembus Matahari</p>
+          </div></a>
+          <a class="window_content" title="Prosesor Desktop Core Generasi ke-8 Intel Resmi Diperkenalkan"><div class="news news1 technology">
+            <img src="img/news6.jpg" alt="Processor">
+            <p>Prosesor Desktop Core Generasi ke-8 Intel Resmi Diperkenalkan</p>
+          </div></a>
+          <p class="right"><a class="searchMoreArticle"><strong>Search More Article..</strong></a></p>
+        </div>
+      </div>
+      <div id="contact_us">
+        <h1 class="center">Contact Us</h1>
+        <p class="center"><em>Kami selalu senang mendapat masukan dari anda :)</em></p>
+        <div class="send_mes_success center">
+          <div class="box_success">
+            Pesan Terkirim <br>
+            Terimakasih.. Pesan anda sangat membantu kami :)
+          </div>
+        </div>
+        <div>
+          <form class="kirim_pesan" action="" method="post">
+            <div>
+              <input type="text" id="kir_nama" name="nama" placeholder="Nama" required>
+              <input type="email" id="kir_email" name="email" placeholder="Email" required>
+              <input type="text" id="kir_no_hp" name="no_hp" placeholder="No. HP" maxlength="13" required>
+            </div>
+            <div>
+              <textarea name="pesan" id="kir_pesan" placeholder="Masukan Pesanmu" required></textarea>
+            </div>
+            <p class="center submit"><input type="submit" id="kirim_pesan" name="kirim_pesan" value="Kirim Pesan"></p>
+          </form>
+        </div>
+      </div>
+      <div id="about_us">
+        <h1 class="center">About Us</h1>
+        <p class="center"><em>Website kami selalu menyediakan berita-berita menarik dan terupdate seputar dunia Internet dan Teknologi. Website ini bertujuan sebagai sarana pengetahuan tentang Internet dan Teknologi dan semoga bermanfaat bagi anda juga berdampak positif bagi kalian sebagai pembaca di website ini.</em></p>
+
+          <div class="organized_by fleft">
+            <p>
+              <strong>Organized By : </strong>
+            </p>
+            <img src="img/credit/bem.png" alt="BEM">
+          </div>
+          <div class="supported_by fleft">
+            <p>
+              <strong>Supported By : </strong>
+            </p>
+            <img src="img/credit/about-best-friends-html-css-and-js-1-638.png" alt="HTML5 CSS3 Javascript">
+            <img src="img/credit/524px-JQuery_logo.svg.png" alt="JQuery">
+          </div>
+          <div class="media_partner fleft">
+            <p>
+              <strong>Media Partner : </strong>
+            </p>
+            <img src="img/credit/w3schools-logo.png" alt="w3school">
+            <img src="img/credit/liputan6.png" alt="liputan">
+          </div>
+      </div>
+      <div class="footer center">
+        Copyright &copy; Habiburrahman Ahmadi 2017
+      </div>
+    </div>
+    <div class="window">
+      <div class="container win-container">
+        <div class="window_menu">
+          <!-- <div class="inline-block">
+            <label for="urutkan">Urutkan menurut : </label>
+            <select id="urutkan" name="urutkan">
+              <option value="terbaru">Berita Terbaru</option>
+              <option value="poluler">Berita Populer</option>
+            </select>
+          </div> -->
+          <div class="inline-block">
+            <label for="cari">Cari artikel : </label>
+            <input type="text" id="cari" name="cari_artikel" placeholder="Cari..">
+          </div>
+
+          <button type="button" name="search">Mulai Pencarian</button>
+          <div class="center">
+            <p class="searchError"><strong>Harap masukan keywordnya !</strong></p>
+          </div>
+        </div>
+        <div class="window_isi">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Untuk artikel dinamis dibawah ini -->
+    <div class="content_isi" title="Mengejutkan, Ini yang Terjadi Setiap Menit di Internet">
+      <div class="win-content">
+        <h1 class="center">Mengejutkan, Ini yang Terjadi Setiap Menit di Internet</h1>
+        <img src="img/news1.jpg" alt="Mengejutkan, Ini yang Terjadi Setiap Menit di Internet">
+        <p><small class="tanggal_post" title="04-09-2017">Di post pada: 04 Sep 2017, 12:00 WIB</small></p>
+        <p>Bulan lalu, Facebook mengumumkan sudah memiliki 2 miliar pengguna aktif per bulan. Artinya, dalam sebulan sekitar 25 persen populasi dunia pernah menggunakan Facebook meski hanya sekali.</p>
+
+        <p>Berdasarkan informasi yang disajikan oleh Lori Lewis dan Chadd Callahan dari Cumulus Media, sebagaimana dikutip dari We Forum, Senin (4/9/2017), tercatat ada banyak hal terjadi dalam internet setiap 1 menitnya.</p>
+
+        <p>Rupanya, internet tak pernah sepi. Terbukti dari banyaknya aktivitas pengguna di internet baik melalui e-commerce, media sosial, e-mail, dan berbagai hal lain. Apa saja?</p>
+
+        <p>1. Sebanyak 900 ribu akun login ke Facebook dalam 1 menit.</p>
+
+        <p>2. Sebanyak 16 juta pesan teks dikirimkan lewat berbagai platform di internet dalam 1 menit.</p>
+
+        <p>3. Sebanyak 342 ribu aplikasi mobile diunduh, baik melalui toko aplikasi Google PlayStore maupun Apps Store dalam 1 menit.</p>
+
+        <p>4. Sebanyak 46.200 unggahan di Instagram dalam 1 menit.</p>
+
+        <p>5. Sebanyak 452 ribu kicauan diunggah melalui Twitter dalam 1 menit.</p>
+
+        <p>6. Sebanyak 990 ribu swipe di Tinder dalam 1 menit.</p>
+
+        <p>7. Sebanyak 156 juta email dikirimkan tiap satu menit.</p>
+
+        <p>8. Dalam 1 menit, ada 40.000 jam durasi lagu yang didengarkan oleh pengguna Spotify di dunia.</p>
+
+        <p>9. Ada 50 perangkat Amazon Echo yang dikirimkan ke pengguna mereka dalam satu menit.</p>
+
+        <p>10. Sebanyak 120 akun baru dibuat di LinkedIn dalam 1 menit.</p>
+
+        <p>11. Sebanyak 15.000 gift dikirimkan melalui Facebook Messenger dalam 1 menit.</p>
+
+        <p>12. Sebanyak 1,8 juta unggahan status dibuat di Snapchat dalam 1 menit.</p>
+
+        <p>13. Sebanyak US$ 751.522 atau sekitar Rp 10 miliar dihabiskan untuk berbelanja online dalam waktu 1 menit.</p>
+
+        <p>14. Dalam 1 menit, ada 70.000 jam durasi film yang ditonton oleh pengguna Netflix di dunia.</p>
+
+        <p>15. Dalam 1 menit, terdapat 3,5 juta pencarian melalui Google.</p>
+
+        <p>16. Selama 1 menit, 4,1 juta video ditonton melalui YouTube.</p>
+
+      </div>
+    </div>
+
+    <div class="content_isi" title="Sepanjang Kuartal II 2017, Ada 331 Juta Nama Domain Internet">
+      <h1 class="center">Sepanjang Kuartal II 2017, Ada 331 Juta Nama Domain Internet</h1>
+      <div class="win-content">
+        <img src="img/news2.jpg" alt="Sepanjang Kuartal II 2017, Ada 331 Juta Nama Domain Internet">
+        <p><small class="tanggal_post" title="22-09-2017">Di post pada: 22 Sep 2017, 18:00 WIB</small></p>
+        <p>Pertumbuhan nama domain global kian meningkat pesat. Berdasarkan data terbaru yang dilaporkan perusahaan nama domain dan keamanan internet Verisign, ada 331,9 juta nama domain internet yang terdaftar di kuartal kedua 2017.</p>
+
+        <p>Peningkatan tersebut tergolong masif mengingat sebelumnya ada 330,6 juta domain pada Juli 2017. Dengan demikian, ada 1,3 juta penambahan nama domain.</p>
+
+        <p>Berdasarkan keterangan resmi Verisign yang diterima Tekno Liputan6.com, Jumat (22/9/2017), peningkatan 1,3 juta nama domain ini menandakan pertumbuhan sebesar 0,4 persen jika dibandingkan dengan kuartal pertama 2017.</p>
+
+        <p>Adapun jumlah registrasi nama domain secara keseluruhan diklaim tumbuh 6,7 juta atau 2,1 persen dari tahun ke tahun. Sementara, Top-Level Domain (TLD) yang menggunakan nama domain &quot;.com&quot; dan &quot;.net&quot; juga mengalami pertumbuhan secara agregat pada kuartal kedua 2017.</p>
+
+        <p>Jumlahnya sendiri mencapai 144,3 juta nama domain. Jumlah tersebut juga mewakili pertumbuhan sebesar 0,8 persen dari tahun ke tahun.</p>
+
+        <p>Hingga 30 Juni 2017, nama domain dengan basis .com terdaftar hingga 129,2 juta nama, sedangkan nama domain dengan basis .net terdaftar mencapai 15,1 juta nama.</p>
+
+        <p>Dan selama kuartal kedua 2017, ada 9,2 juta total nama .com dan .ne&#39; yang baru saja terdaftar. Pada kuartal kedua tahun lalu, ada 8,6 juta nama domain baru .com dan .net.</p>
+
+      </div>
+    </div>
+
+    <div class="content_isi" title="Twitter Uji Coba Batas Kicauan Jadi 280 Karakter">
+      <h1 class="center">Twitter Uji Coba Batas Kicauan Jadi 280 Karakter</h1>
+      <div class="win-content">
+        <img src="img/news3.jpg" alt="Twitter Uji Coba Batas Kicauan Jadi 280 Karakter">
+        <p><small class="tanggal_post" title="27-09-2017">Di post pada: 27 Sep 2017, 16:00 WIB</small></p>
+        <p>Setelah sekian lama,&nbsp;<a title="Twitter">Twitter</a>&nbsp;memutuskan untuk menguji coba&nbsp;batas kicauan yang bisa diunggah oleh pengguna. Seperti yang diketahui, saat ini Twitter membatasi penggunanya untuk menulis sebanyak 140 karakter.</p>
+
+        <p>Kabar gembira ini terungkap setelah&nbsp;Product Manager Twitter, Aliza Rosen, mengunggah informasi tersebut di blog resmi Twitter.</p>
+
+        <p>Seperti&nbsp;dilaporkan&nbsp;<em>9to5 Mac</em>, Rabu (27/9/2017), keputusan perusahaan&nbsp;untuk menambah jumlah karakter di&nbsp;<a title="Twitter">Twitter</a>, karena masing-masing pengguna memiliki bahasa yang berbeda, sehingga karakter dan kata yang dituliskan pun akan berbeda jumlahnya.</p>
+
+        <p>Rosen menambahkan, bahasa seperti Jepang dan Korea bisa memuat dua kali lipat informasi dalam satu karakter. Seperti disebutkan di atas, fitur ini masih diujicobakan kepada beberapa pengguna saja.&nbsp;</p>
+
+        <p>Bahasa tersebut lebih efisien dibanding bahasa lainnya, seperti Inggris, Prancis, dan Jerman yang menimbulkan masalah tersendiri. &quot;Penelitian kami menunjukkan kurangnya batas karakter membuat orang yang berkicau dalam bahasa seadanya,&quot; ujar Rosen.</p>
+
+        <p>Ia berharap penambahan batas karakter ini dapat memudahkan pengguna untuk berkicau sesuatu karena Twitter mengedepankan prinsip singkat dan jelas.</p>
+
+        <p>CEO Twitter, Jack Dorsey juga menyuarakan rasa gembiranya terhadap penambahan batas kicauan di&nbsp;<a title="Twitter">Twitter</a>. Menurutnya, perubahan kecil ini adalah langkah besar dan mengapresiasi timnya dalam menyelesaikan masalah di Twitter.</p>
+      </div>
+    </div>
+
+    <div class="content_isi" title="Bisnis IoT Berbasis Satelit Capai Rp 39 Triliun di 2026">
+      <h1 class="center">Bisnis IoT Berbasis Satelit Capai Rp 39 Triliun di 2026</h1>
+      <div class="win-content">
+        <img src="img/news4.jpg" alt="Bisnis IoT Berbasis Satelit Capai Rp 39 Triliun di 2026">
+        <p><small class="tanggal_post" title="29-09-2017">Di post pada: 29 Sep 2017, 08:30 WIB</small></p>
+        <p>Nilai bisnis&nbsp;<em>machine-to-machine</em>&nbsp;(M2M) dan&nbsp;<em>Internet of Things</em>&nbsp;(IoT) berbasis satelit di dunia diprediksi mencapai US$ 2,9 miliar atau sebesar Rp 39 triliun pada 2026. Demikian menurut lembaga riset NSR.</p>
+
+        <p>Dalam laporan terbarunya, sebagaimana dikutip&nbsp;<em>Telecom Asia</em>, Jumat (28/9/2017), pertumbuhan nilai bisnis tersebut didorong dengan jumlah terminal&nbsp;<em>in-service</em>&nbsp;untuk perangkat M2M sebanyak 6,8 juta di dunia.</p>
+
+        <p>Menurut riset, semakin banyak aplikasi M2M yang membutuhkan koneksi satelit, seperti aplikasi untuk sektor transportasi darat hingga pelacakan kargo. Kedua sektor tersebut merupakan beberapa sektor industri yang menguntungkan.</p>
+
+        <p>&quot;Hasil riset kami menunjukkan ada 22 aplikasi yang mendatangkan pertumbuhan pendapatan setiap tahunnya, dan mempercepat suplai kapasitas perangkat M2M baru,&quot; ungkap analis senior NSR, Alan Crisp.</p>
+
+        <p>Selain itu, lanjut Crisp, permintaan tertinggi layanan M2M kebanyakan berasal dari produk yang membutuhkan kapasitas&nbsp;<em>bandwith</em>&nbsp;yang rendah. Memang, layanan M2M dan IoT tak terlalu membutuhkan&nbsp;<em>bandwith</em>&nbsp;tinggi.</p>
+
+        <p>NSR memprediksi dalam beberapa dekade selanjutnya, sejumlah sektor bisnis akan membutuhkan tambahan&nbsp;<em>bandwith</em>&nbsp;untuk mendukung aplikasi, seperti&nbsp;<em>big data</em>, mesin telematika, dan layanan&nbsp;<em>streaming</em>.</p>
+      </div>
+    </div>
+
+    <div class="content_isi" title="Inilah Pesawat NASA yang Bakal Menembus Matahari">
+      <h1 class="center">Inilah Pesawat NASA yang Bakal Menembus Matahari</h1>
+      <div class="win-content">
+        <img src="img/news5.jpg" alt="Inilah Pesawat NASA yang Bakal Menembus Matahari">
+        <p><small class="tanggal_post" title="09-09-2017">Di post pada: 9 Sep 2017, 06:30 WIB</small></p>
+        <p>Seperti diwartakan sebelumnya,&nbsp;<a title="NASA ">NASA&nbsp;</a>siap menjalankan misi terbaru di mana akan menerbangkan pesawat ruang angkasa ke Matahari. Jika sesuai dengan rencana, misi tersebut akan dilakukan mulai 2018.</p>
+
+        <p>Dan kini, ilmuwan Badan Antariksa Amerika Serikat tersebut mengungkap jenis pesawat ruang angkasa yang akan digunakan untuk menembus Matahari.</p>
+
+        <p>Pesawat itu, sebagaimana dilansir laman&nbsp;<em>Mirror</em>&nbsp;pada&nbsp;Jumat (29/9/2017) bernama &quot;Parker Solar Probe&quot; dan dipamerkan secara terbatas.</p>
+
+        <p>Pimpinan ilmuwan Parker Solar Probe Nicky Fox, mengatakan pesawat dirancang untuk bisa terbang setidaknya ke titik korona Matahari.</p>
+
+        <p>&quot;Korona adalah &#39;kunci&#39; utama dari semua misteri Matahari yang diperdebatkan ilmuwan selama beberapa dekade. Kami berharap Parker bisa menembus dan mempelajarinya,&quot; ujar Fox.</p>
+
+        <p>Fox sendiri mengungkap pesawat ini bisa bertahan dalam suhu ekstrem hingga 2.500 derajat Fahrenheit (sekitar 1.371 derajat Celsius).</p>
+
+        <p>Nanti, pesawat bertugas untuk mengumpulkan data yang dipelajari ke Bumi dalam jarak 89 juta mil untuk membantu peneliti mengamati karakteristik atmosfer dan korona&nbsp;<a title="Matahari">Matahari</a>.</p>
+
+        <p>Walau begitu, insinyur sistem Parker Solar Probe Jim Kinnison mengatakan masih butuh waktu lama untuk menguji pesawat sebelum akhirnya diterbangkan pada 2018.</p>
+
+        <p>&quot;Alasannya, bukan perkara mudah menerbangkan wahana khusus ke orbit Matahari karena selain panas, partikel supersoniknya bisa membahayakan,&quot; tutur Kinnison.</p>
+
+        <p>Sekadar informasi, Parker Solar Probe sebetulnya sudah dirancang sejak 2014. Adapun pesawat ini dinamai atas tribut untuk insinyur University of Chicago bernama Eugene Parker, yang mampu membuktikan keberadaan badai matahari pada 1958 silam.</p>
+
+        <p>Parker Solar Probe sendiri dirancang di laboratorium Johns Hopkins University. Ia akan terbang mengitari Planet Venus sebanyak tujuh kali sebelum akhirnya beranjak ke Matahari pada 2024.</p>
+
+        <p>Terkait dana pembangunan pesawat, NASA dilaporkan telah menggelontorkan sekitar US$ 1,5 miliar untuk menciptakan pesawat ini.</p>
+
+        <p>Pesawat luar angkasa Solar Probe Plus akan dilindungi dengan material yang diklaim tahan terhadap panas dan radiasi&nbsp;<a title="Matahari">Matahari</a>. Instrumennya akan dilindungi dengan material&nbsp;<em>carbon-composite</em>&nbsp;dan&nbsp;<em>thermal protection system</em>&nbsp;dengan ketebalan 4,5 inci.</p>
+      </div>
+    </div>
+
+
+    <div class="content_isi" title="Prosesor Desktop Core Generasi ke-8 Intel Resmi Diperkenalkan">
+      <h1 class="center">Prosesor Desktop Core Generasi ke-8 Intel Resmi Diperkenalkan</h1>
+      <div class="win-content">
+        <img src="img/news6.jpg" alt="Prosesor Desktop Core Generasi ke-8 Intel Resmi Diperkenalkan">
+        <p><small class="tanggal_post" title="27-09-2017">Di post pada: 27 Sep 2017, 11:00 WIB</small></p>
+        <p>Bulan lalu,&nbsp;<a title="Intel">Intel</a>&nbsp;memperkenalkan seri prosesor Core i Generasi ke-8 untuk pasar notebook. Kini, perusahaan resmi mmemboyong seri prosesor terbaru tersebut ke pasar deskop dengan seri Core i3, Core i5, dan Core i7.</p>
+
+        <p>Lalu apa perbedaan seri Generasi ke-8 untuk lini&nbsp;<em>notebook</em>&nbsp;dan desktop ini? Yang membedakannya adalah jumlah inti prosesor desktop yang lebih tinggi ketimbang di&nbsp;<em>notebook</em>.</p>
+
+        <p>Misalnya, prosesor Core i3 (<em>entry-level</em>) di desktop memiliki empat inti, bukannya dua inti. Demikian pula dengan prosesor Core i5 (<em>mid-range</em>) dengan enam inti, bukan empat; dan model Core i7 memiliki enam inti dengan dukungan&nbsp;<em>hyper-trading</em>.</p>
+
+        <p>Dilaporkan&nbsp;<em>Ubergizmo</em>, Rabu (27/9/2017), prosesor Coffee Lake diklaim 32 persen lebih cepat dibandingkan seri sebelumnya dan 65 persen lebih cepat dibandingkan komputer berusia tiga tahun yang digunakan untuk mengedit video.</p>
+
+        <p>Diketahui,&nbsp;<a title="Intel">Intel</a>&nbsp;memperkenalkan prosesor Core i Generasi ke-8 ini dalam enam model. Setiap seri memiliki dua varian yang berbeda.</p>
+
+        <p>&quot;Prosesor Intel Core i Generasi ke-8 ini akan menghadirkan peningkatan yang luar biasa terhadap performa, khususnya bagi&nbsp;<em>gamer</em>,&quot; ungkap Anand Srivatsa, General Manager of the Desktop Intel.</p>
+
+        <p>Ia menambahkan,&nbsp;<em>gamer</em>&nbsp;akan mendapatkan frame rate lebih tinggi 25 persen ketika memainkan Gears of War 4 bila dibandingkan chip Intel Core i Generasi ke-7. Tak hanya itu, chipset baru Intel ini juga memungkinkan pengguna untuk mengedit video 360 derajat 4K 32 persen lebih cepat dibandingkan generasi sebelumnya.</p>
+
+        <p>Meski belum memberikan daftar harga yang pasti, prosesor&nbsp;<a title="Intel ">Intel&nbsp;</a>paling murah yakni Core i3-8100 berkecepatan 3.6GHz dibanderol harga US$120 sekitar Rp 1,6 juta hingga paling tinggi Core i7-8700K berkecepatan 3.8GHz seharga US$359 atau seharga Rp 4,8 juta.</p>
+
+      </div>
+    </div>
+
+  </body>
+</html>
